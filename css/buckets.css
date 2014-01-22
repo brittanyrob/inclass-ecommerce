@@ -1,3 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.media {
+	background-color: rgba(146,104,130,.60);
+	padding: 5rem;
+	border-radius: 35px;
+	padding-left: -15rem;
+	margin-left: -8rem;
+}
+
+.media-body {
+	overflow: hidden;
+}
+
+.media-img-stacked {
+	float: none;
+	margin: 0;
+}
