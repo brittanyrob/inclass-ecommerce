@@ -17,6 +17,11 @@ html {
   font: normal 100%/1.5 Libre Baskerville, serif; /* 16px/24px */
 }
 
+mark {
+	background-color: #926882; 
+	color: black;
+}
+
 body {
       margin: 0 auto;
       padding: 0;
@@ -56,7 +61,7 @@ blockquote, table, hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Euphorigenic-Regular;
+  font-family: Euphorigenic-Regular;
 }
 
 .yotta {

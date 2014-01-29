@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.logo {
+	float: left;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	margin-left: -6rem; 
+}
+
+h1{
+	display: inline-block;
+	font-family: Arbutus Slab;
+	padding: 1.25rem 3rem;
+	margin-right: 45px;
+	width: auto;
+	color: white;
+	margin-left: 5%;
+	background: black;
+		
+}
