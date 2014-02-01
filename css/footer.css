@@ -36,7 +36,7 @@ float: right;
 
 footer {
 font-size: .75em;
-padding: .5rem;	
+padding: 1rem;	
 }
 
 .copyright {
@@ -50,15 +50,26 @@ display: inline-block;
 .icon {
 display: inline-block;
 width: 25px;
+margin: 0 auto;
+margin-right: 6px;
+
+}
+
+.icon li {
+margin: 0 .4rem;
+display: inline-block;
+}
+
+@media only screen and (min-width: 30em) {
+.icon {
+display: inline-block;
 float: left;
 margin-right: 6px;
 
 }
 
 .icon li {
-	margin: 0 .4rem;
-	display: inline-block;
-
+margin: 0 .4rem;
+display: inline-block;
 }
-
 }
