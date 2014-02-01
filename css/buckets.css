@@ -4,10 +4,10 @@
 
 .media {
 	background-color: rgba(146,104,130,.60);
-	padding: 5rem;
+	padding: 1rem;
 	border-radius: 35px;
-	padding-left: -15rem;
-	margin-left: -8rem;
+	padding-left: -10rem;
+	margin-left: -2rem;
 }
 
 .media-body {
@@ -16,5 +16,18 @@
 
 .media-img-stacked {
 	float: none;
-	margin: 0;
+	margin: 0 auto;
+}
+
+p {
+	padding-left: 5rem;
+}
+
+img {
+	padding-left: 5rem;
+	
+}
+
+h1 {
+	padding-left: 5rem;
 }
