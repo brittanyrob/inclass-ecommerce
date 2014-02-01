@@ -1,5 +1,4 @@
 .grid {
-	border: 1px solid red;
 	overflow: hidden;
 }
 
@@ -28,7 +27,7 @@
 	width: 33.3333%;
 }
 	
-.unti-m-1-2 {
+.unit-m-1-2 {
 	width: 50%;
 }
 }
