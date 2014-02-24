@@ -16,16 +16,17 @@ overflow: hidden;
 @viewport { width: device-width; scale: 1;}
 
 html{
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
--o-text-size-adjust: 100%;
-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 
 /*----------------------------------------------------Bottom */
 
 #navigation, footer {
+padding: 0px;
 background-color: #926882; 
 color: #fff;
 text-align: center;
@@ -34,6 +35,10 @@ text-align: center;
 footer nav li {
 display: inline-block;
 text-align: center;
+zoom: 1;
+padding: 10px;
+margin-top: -2rem;
+max-width: 400px;
 }
 
 nav li a {
@@ -86,4 +91,36 @@ padding: 0;
 
 .social img {
 	padding: 0;
+}
+
+@media only screen and (min-width: 30em) {
+footer nav li {
+display: inline-block;
+float: right;
+padding: 10px;
+margin-top: -1rem;
+max-width: 400px;
+}
+}
+
+footer {	
+font-size: 0.9em;
+padding: .5rem;
+}
+
+.copyright {
+font-size: .25rem;
+}
+/* ----------------------------social media badges */
+
+.icon {
+display: inline-block;
+width: 25px;
+float: left;
+margin-right: 6px;
+}
+
+.icon li {
+margin: 0 .4rem;
+display: inline-block;
 }
