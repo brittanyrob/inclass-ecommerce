@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.search {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.search-field {
+	border: 1px solid #926882;
+}

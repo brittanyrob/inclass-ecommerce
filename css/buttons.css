@@ -5,6 +5,7 @@
 .btn:link,
 .btn:visited {
 	display: inline-block;
+	margin-top: 1rem;
 	padding: 0.75em 1em;
 	background-color: #926882;
 	background-image: linear-gradient(to bottom, #926882, #6A4B5E);

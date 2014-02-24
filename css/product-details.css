@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.micro {
+	list-style-type: circle;
+}
+
+.micro ul {
+	margin-left: 6rem;
+}
+
+.media-body {
+	margin-top: 2rem;
+	float: left;
+}
+
+img {
+	max-width: 400px;
+	margin-top: 2rem;
+}
+
+@media only screen and (max-width:30em) {
+
+img {
+	width:100%;
+	min-width: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 1rem;
+}
+}
+
+@media only screen and (max-width: 30em) {
+
+img{
+	width:100%;
+	max-width: 600px;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 1rem;
+}
+
+.media-body {
+	float: left;
+}
+
+.micro ul {
+	margin-left: 6rem;
+}
+}
+
+@media only screen and (max-width: 50em) {
+
+.media-body {
+	margin-top: 2rem;
+	float: right;
+}
+}
