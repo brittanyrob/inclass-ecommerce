@@ -29,7 +29,7 @@
 		<nav class="nav">
 			<ul class="list-group">
 				<li class="list-group-item-inline"><a class="{% if page.url =='/' %}current{% end if %}" href="{{site.baseurl}}/index/">Home</a></li>
-				<li class="list-group-item-inline"><a class="{% if page.url =='/' %}current{% end if %}" href="{{site.baseurl}}/about/">About</a></li>
+				<li class="list-group-item-inline"><a class="{% if page.url contains 'yogurt' %}current{% end if %}" href="{{site.baseurl}}/about/">About</a></li>
 				<li class="list-group-item-inline"><a class="{% if page.url =='/' %}current{% end if %}" href="{{site.baseurl}}/thank-you/">Yogurt</a></li>
 			</ul>
 		</nav>
